@@ -13,6 +13,8 @@
     justify-content: space-around;
     width: 100%;
     max-width: 1440px;
+        column-gap: 160px;
+
 
 }
 img{
@@ -23,6 +25,7 @@ img{
     flex-direction: column;
     row-gap: 30px;
     width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .first-1{
     
@@ -30,10 +33,21 @@ img{
     flex-direction: column;
     row-gap: 15px;
 }
+.said{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.image p:first-child{
+    margin-bottom: 10px;
+}
 .second{
     background-color: white;
-    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.2);
+    padding: 40px ;
     width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 form{
     display: flex;
@@ -68,6 +82,7 @@ select{
 #from{
     font-size: 10px;
     padding: 15px 0px;
+    color: #d5d8db;
 }
 #last{
     height: 60px;
