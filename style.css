@@ -3,11 +3,14 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: url('image/pexels-danila-popov-85164195-9007462.jpg');
+    background-size: cover;
+
+}
 .outer{
     padding: 100px 20px;
     width: 100%;
-    background-image: url('image/pexels-danila-popov-85164195-9007462.jpg');
-    background-size: cover;
 }
 .inner{
     display: flex;
